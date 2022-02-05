@@ -1,11 +1,13 @@
 package necode.angelitex.tiplur.angelitemsapi.tools;
 
-import java.util.Iterator;
 import java.util.List;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
 public class BookBuilder {
+    /**
+     * Created by TIplur 05.02.2022
+     */
     private BookMeta bm;
     private ItemStack item;
 
