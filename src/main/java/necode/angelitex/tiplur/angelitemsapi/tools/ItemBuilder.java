@@ -401,7 +401,7 @@ public class ItemBuilder {
     // ==================================================[ Build item. ] ==================================================
 
     /**
-     * Building item, return a default item Spigot.
+     * Building item, return a default item Spigot
      */
     public ItemStack build() {
         itemStack.setItemMeta(itemMeta);

@@ -4,7 +4,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class AngelItemAPI extends JavaPlugin {
     private static AngelItemAPI instance;
-
+/*
+* None Uses
+ */
     @Override
     public void onEnable() {
         // Plugin startup logic
