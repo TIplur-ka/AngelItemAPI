@@ -16,7 +16,7 @@ public class ColorUtil {
      * @param string Your string for hex color formatting
      */
     public static String setHexColor(String string) {
-        Pattern hexPattern = Pattern.compile("<#" + "([A-Fa-f0-9]{6})" + ">");
+        Pattern hexPattern = Pattern.compile("&#" + "([A-Fa-f0-9]{6})");
         Matcher matcher = hexPattern.matcher(string);
         StringBuffer buffer = new StringBuffer(string.length() + 32);
 
