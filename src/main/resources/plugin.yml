@@ -1,0 +1,4 @@
+name: AngelItemsAPI
+version: '${project.version}'
+main: necode.angelitex.tiplur.angelitemsapi.AngelItemsAPI
+api-version: 1.16
