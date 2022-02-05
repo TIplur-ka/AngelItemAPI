@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>necode.angelitex.tiplur</groupId>
-  <artifactId>AngelItemsAPI</artifactId>
+  <artifactId>AngelItemAPI</artifactId>
   <version>Build 1.0</version>
   <packaging>jar</packaging>
 
-  <name>AngelItemsAPI</name>
+  <name>AngelItemAPI</name>
 
   <properties>
     <java.version>1.8</java.version>

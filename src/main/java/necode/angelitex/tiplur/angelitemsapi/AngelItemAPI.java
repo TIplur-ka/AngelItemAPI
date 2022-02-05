@@ -2,8 +2,8 @@ package necode.angelitex.tiplur.angelitemsapi;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class AngelItemsAPI extends JavaPlugin {
-    private static AngelItemsAPI instance;
+public final class AngelItemAPI extends JavaPlugin {
+    private static AngelItemAPI instance;
 
     @Override
     public void onEnable() {
@@ -16,5 +16,5 @@ public final class AngelItemsAPI extends JavaPlugin {
         // Plugin shutdown logic
     }
 
-    public static AngelItemsAPI getInstance() {return instance;}
+    public static AngelItemAPI getInstance() {return instance;}
 }
