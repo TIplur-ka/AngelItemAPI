@@ -2,6 +2,7 @@ package necode.angelitex.tiplur.angelitemsapi.tools;
 
 
 import net.md_5.bungee.api.ChatColor;
+import org.apache.commons.lang.StringEscapeUtils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -33,5 +34,15 @@ public class ColorUtil {
      */
     public static String setColor(String string) {
         return ChatColor.translateAlternateColorCodes('&', string);
+    }
+
+    /**
+     *
+     */
+    public static String MultiCollor(String s) {
+        return StringEscapeUtils.unescapeJava(
+                org.bukkit.ChatColor.translateAlternateColorCodes('&',
+                        s.replaceAll("&#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])", "&x&$1&$2&$3&$4&$5&$6")
+                ));
     }
 }
